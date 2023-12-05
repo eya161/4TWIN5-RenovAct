@@ -1,0 +1,4 @@
+FROM openjdk:11
+EXPOSE 8089
+ADD target/ActualiteMicroService-0.0.1-SNAPSHOT.jar actualitems.jar
+ENTRYPOINT ["java", "-jar", "actualitems.jar"]
