@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+
+  eureka:
+    build: .\EurekaDiscov
+    image: eureka
+    container_name: eurekaDiscovery
+    ports:
+      - "8761:8761"
+    hostname: discovery
