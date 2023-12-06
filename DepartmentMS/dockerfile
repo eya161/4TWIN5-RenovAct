@@ -1,0 +1,4 @@
+FROM openjdk:11
+EXPOSE 8082
+ADD target/DepartmentMS-0.0.1-SNAPSHOT.jar DepartmentMS-docker.jar
+ENTRYPOINT ["java","-jar", "DepartmentMS-docker.jar"]
