@@ -1,0 +1,4 @@
+FROM openjdk:11
+EXPOSE 8089
+ADD target/universiteback-0.0.1-SNAPSHOT.jar Universiteback.jar
+ENTRYPOINT ["java", "-jar", "Universiteback.jar"]
