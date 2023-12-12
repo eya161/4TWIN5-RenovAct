@@ -1,6 +1,31 @@
 version: "3.9"
 services:
 
+  actualite:
+    build: .\ActualiteMicroService
+    image: actualitems
+    container_name: actualiteMS1
+    ports:
+      - "8085:8085"
+    environment:
+      - eureka.client.service-url.defaultZone=http://discovery:8761/eureka
+      - spring.datasource.url=jdbc:mysql://mysql-db:3306/ActualiteMS?createDatabaseIfNotExist=true
+      - spring.datasource.username=root
+      - spring.datasource.password=root
+    depends_on:
+      - eureka
+      - mysql-db
+  
+  mysql-db:
+    image: mysql:5.6
+    container_name: mysql-db
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=actualite
+    ports:
+      - "3306:3306" 
+    restart: unless-stopped
+    
   eureka:
     build: .\EurekaDiscov
     image: eureka
