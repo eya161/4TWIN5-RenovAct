@@ -12,7 +12,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ClassMicro" target="11" />
       <module name="EurekaServer" target="17" />
     </bytecodeTargetLevel>
   </component>

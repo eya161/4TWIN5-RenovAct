@@ -1,6 +1,4 @@
 
-D
-EurekaServer/pom.xml,f\9\f93fe3bd91b42d4c95457b4c07dc854d94251529
 €
 PClassMicro/src/main/java/com/example/ClassMicro/Controller/ClasseController.java,0\d\0d59a4fe0322cf440ce4039cbab31c4fa2784f1e
 r
@@ -17,3 +15,7 @@ KClassMicro/src/main/java/com/example/ClassMicro/Service/IServiceClasse.java,0\
 OClassMicro/src/test/java/com/example/ClassMicro/ClassMicroApplicationTests.java,f\f\ff727899977e8950916add13171deaa9329924af
 B
 ClassMicro/pom.xml,6\c\6ce7d010bb3995bcb168ed7e7f8fb599271bd1e7
+E
+ClassMicro/dockerfile,7\5\7545eb687a8e197d4ea5559032939bb5763d2ad8
+M
+EurekaServer/EurekaServer.iml,d\d\ddf88f311bc7f975e474c4f95ab3882c35230017
