@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ClassMicro/ClassMicro.iml" filepath="$PROJECT_DIR$/ClassMicro/ClassMicro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EurekaServer/EurekaServer.iml" filepath="$PROJECT_DIR$/EurekaServer/EurekaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Micro classe.iml" filepath="$PROJECT_DIR$/.idea/Micro classe.iml" />
+    </modules>
+  </component>
+</project>
