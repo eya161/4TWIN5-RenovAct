@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@RequestMapping("/departments")
 @AllArgsConstructor
-@CrossOrigin(origins = "*")
 public class DepartmentController {
 
     IDepartmentService departmentService;

@@ -46,7 +46,7 @@ services:
       - eureka
       - mysql-db
 
-  univrtsite:
+  univertsite:
     build: .\universiteback
     image: universitems
     container_name: universiteMS1
@@ -73,7 +73,7 @@ services:
     image: univconnectms
     container_name: univconnectMS1
     ports:
-      - "8081:8081"
+      - "8084:8084"
     environment:
       - eureka.client.service-url.defaultZone=http://discovery:8761/eureka
     depends_on:
@@ -111,3 +111,20 @@ services:
     ports:
       - "8761:8761"
     hostname: discovery
+  
+  gateway:
+    build: .\Gateway
+    image: gateway
+    ports:
+      - "8090:8090"
+    environment:
+      - eureka.client.service-url.defaultZone=http://discovery:8761/eureka
+    depends_on:
+      - eureka
+      - actualite
+      - chambre
+      - departement
+      - univertsite
+      - bloc
+      - foyer
+      - classe

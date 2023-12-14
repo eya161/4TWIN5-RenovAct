@@ -1,4 +1,4 @@
 FROM openjdk:11
-EXPOSE 8081
+EXPOSE 8084
 ADD target/UnivConnect-0.0.1-SNAPSHOT.jar UnivFoyer.jar
 ENTRYPOINT ["java","-jar","UnivFoyer.jar"]
