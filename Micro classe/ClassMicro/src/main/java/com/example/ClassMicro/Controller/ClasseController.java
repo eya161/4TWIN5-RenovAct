@@ -15,18 +15,18 @@ import java.util.Optional;
 
 @RestController
 @AllArgsConstructor
-@RequestMapping("/Classe")
+@RequestMapping("/classes")
 public class ClasseController {
 
     @Autowired
     ServiceClasseImp serviceClasseImp;
 
-    @GetMapping("/classes/{id}")
+    @GetMapping("/classe/{id}")
     Classe getOne(@PathVariable long id){
         return serviceClasseImp.getClasse(id);
     }
 
-    @GetMapping("/classes")
+    @GetMapping("/classe")
     List<Classe> getAll(){
         return serviceClasseImp.getAllClasses();
     }

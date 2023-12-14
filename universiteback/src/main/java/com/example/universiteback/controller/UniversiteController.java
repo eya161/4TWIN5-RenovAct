@@ -8,9 +8,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/universite")
+@RequestMapping("/universites")
 @AllArgsConstructor
-
 public class UniversiteController {
     IUniversiteService universiteService;
 

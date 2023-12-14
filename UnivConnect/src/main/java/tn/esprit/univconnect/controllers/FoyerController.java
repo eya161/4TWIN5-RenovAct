@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.List;
 
 @RestController
-@RequestMapping("/foyer")
+@RequestMapping("/foyers")
 @AllArgsConstructor
 public class FoyerController {
     IFoyerService foyerService;
