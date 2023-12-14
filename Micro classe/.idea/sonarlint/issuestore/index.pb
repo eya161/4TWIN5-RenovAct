@@ -11,8 +11,6 @@ JClassMicro/src/main/java/com/example/ClassMicro/ClassMicroApplication.java,7\c
 MClassMicro/src/main/java/com/example/ClassMicro/Service/ServiceClasseImp.java,7\9\790d122716df785cd31de3c65290324d5abd2b83
 {
 KClassMicro/src/main/java/com/example/ClassMicro/Service/IServiceClasse.java,0\1\01103753b98c4ea798e7a934621437b382c5a5fc
-
-OClassMicro/src/test/java/com/example/ClassMicro/ClassMicroApplicationTests.java,f\f\ff727899977e8950916add13171deaa9329924af
 B
 ClassMicro/pom.xml,6\c\6ce7d010bb3995bcb168ed7e7f8fb599271bd1e7
 E

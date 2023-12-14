@@ -94,6 +94,8 @@ services:
       - eureka
       - mysql-db
 
+ 
+
   mysql-db:
     image: mysql:5.6
     container_name: mysql-db
@@ -112,6 +114,20 @@ services:
       - "8761:8761"
     hostname: discovery
   
+  reservation-node:
+    build:
+      context: .\Reservation Node
+      dockerfile: dockerfile
+    image: "reservationms"
+    container_name: "reservation"
+    ports:
+      - "5000:5000"
+    environment:
+      - eureka.client.service-url.defaultZone=http://discovery:8761/eureka
+    restart: unless-stopped
+    depends_on:
+      - eureka
+  
   gateway:
     build: .\Gateway
     image: gateway
@@ -128,3 +144,4 @@ services:
       - bloc
       - foyer
       - classe
+      - reservation-node
