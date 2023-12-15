@@ -1,13 +1,13 @@
 # Dorm Reservation system and Classes Mangement
 ## MicroMasters Team
 Team Members:
-Eya Araari - Actuality Management (MySQL Database)
-Amine Ben Rjab -  Department Management (MySQL Database)
-Skander Chouk - Room Management (MySQL Database)
-Amani Thameur - University Management  (H2 Database)
-Emna Abbessi - Bloc Management  (H2 Database)
-Manar Gnichi - Dorm Management  (H2 Database)
-Ahmed Ben Abid - Class Management  (MySQL Database)
+1. Eya Araari - Actuality Management (MySQL Database)
+2. Amine Ben Rjab -  Department Management (MySQL Database)
+3. Skander Chouk - Room Management (MySQL Database)
+4. Amani Thameur - University Management  (H2 Database)
+5. Emna Abbessi - Bloc Management  (H2 Database)
+6. Manar Gnichi - Dorm Management  (H2 Database)
+7. Ahmed Ben Abid - Class Management  (MySQL Database)
 ## Project Overview
 The project aims to develop a modular and scalable Dorm Reservation system and Classes mangement. The system comprises several services, each responsible for specific functionalities such as room reservation, room management, bloc management, dorm management, class management, department management, university management, actuality management and reservation of room management.
 
@@ -46,14 +46,14 @@ Development of the service to provide CRUD functionnalities.
 Configuration of the service to interact efficiently with MongoDB in the port 5000.
 
 ## Task Distribution
-Eya: Actuality Management(Service one) - MySQL Database
-Amine: Department Management (Service two) - MySQL Database
-Skander: Room Management (Service three) - MySQL Database
-Amani: University Management (Service four) - (H2 Database)
-Emna: Bloc Management (Service five) - (H2 Database)
-Manar: Dorm Management  (Service six) - (H2 Database)
-Ahmed: Class Management  (Service seven) - MySQL Database
-Team Effort: Reservation Management (Service eight) - MongoDB
+* Eya: Actuality Management(Service one) - MySQL Database
+* Amine: Department Management (Service two) - MySQL Database
+* Skander: Room Management (Service three) - MySQL Database
+* Amani: University Management (Service four) - (H2 Database)
+* Emna: Bloc Management (Service five) - (H2 Database)
+* Manar: Dorm Management  (Service six) - (H2 Database)
+* Ahmed: Class Management  (Service seven) - MySQL Database
+* sTeam Effort: Reservation Management (Service eight) - MongoDB
 
 API Gateway and Eureka
 Deployment
